@@ -1,11 +1,11 @@
-# 🧠 Text Summarization Using Pre-trained Models
+# Text Summarization Using Pre-trained Models
 
 This repository demonstrates how to perform **automatic text summarization** using **pre-trained Transformer models** (such as BART or T5) from the Hugging Face `transformers` library.  
 It includes data preprocessing, tokenization, model fine-tuning (optional), and inference on new text inputs.
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 Text summarization is the task of generating a short and coherent summary of a longer text document.  
 This notebook explores how to:
 - Use a pre-trained summarization model (e.g., BART, T5)
@@ -15,7 +15,7 @@ This notebook explores how to:
 
 ---
 
-## 🧰 Features
+## Features
 - Support for multiple pre-trained models (`facebook/bart-large-cnn`, `t5-small`, etc.)
 - Easy dataset loading using `datasets` from Hugging Face
 - Evaluation metrics such as **ROUGE** and **F1 score**
@@ -23,7 +23,7 @@ This notebook explores how to:
 - Ready-to-run on Google Colab
 
 ---
-## ⚙️ Installation
+## Installation
 ```
 pip install -r requirements.txt
 ```
